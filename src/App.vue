@@ -51,4 +51,16 @@ export default {
   color: white;
   background-color: crimson;
 }
+
+button {
+  margin: 0 10px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+}
+
+button:hover {
+  background-color: #888;
+}
 </style>
