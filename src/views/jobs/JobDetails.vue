@@ -1,10 +1,12 @@
 <template>
   <h2>Job Details</h2>
-  <p>The page route params are {{ $route.params }}</p>
+  <p>The job id is: {{ id }}</p>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["id"],
+};
 </script>
 
 <style>
